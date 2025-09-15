@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      // Enable class-based dark mode for Tailwind CDN
+      window.tailwind = window.tailwind || {};
+      tailwind.config = { darkMode: "class" };
+      // Avoid FOUC: set theme class before React mounts
+      try {
+        const saved = localStorage.getItem("theme");
+const theme = saved || "dark"; // default to dark
+if (theme === "dark") document.documentElement.classList.add("dark");
+else document.documentElement.classList.add("light");
+} catch(e) {}
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>PASSA A BOLA - Brasileirão</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="color-scheme" content="dark light">
+</head>
+  <body class="bg-gray-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
