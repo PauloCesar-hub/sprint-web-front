@@ -105,7 +105,16 @@ Faça seus commits: git commit -m "feat: minha nova feature"
 Envie: git push origin feat/minha-feature
 
 Abra um Pull Request
+------------------------------------------------------------------------
+## 👨‍💻 Autores
 
+- Paulo Cesar de Govea Junior - (RM:566034)
+- Guilherme Vilela Perez - (RM:564422)
+- Gustavo Panham Dourado - (RM:563904)
+- Christian Schunck de Almeida - (RM:563850)
+- Thomas Jeferson Santana Wang - (RM565104)
+  
+------------------------------------------------------------------------
 📄 Licença
 
 Este projeto está sob a licença MIT.
