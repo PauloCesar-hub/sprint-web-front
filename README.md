@@ -13,9 +13,6 @@
 
 ## 🚀 Funcionalidades Principais
 
-•⁠  ⁠👥 *Cadastro e gerenciamento de jogadores*  
-  Criação de perfis com foto, nome, posição e estatísticas individuais.
-
 •⁠  ⁠🏟️ *Criação de times e campeonatos*  
   Montagem de equipes, controle de escalações e organização de torneios.
 
@@ -34,7 +31,6 @@
 
 •⁠  ⁠*Frontend:* React + Vite + TypeScript + TailwindCSS  
 •⁠  ⁠*Backend/API:* Node.js + Express  
-•⁠  ⁠*Banco de Dados:* MongoDB (ou outro definido no ⁠ .env ⁠)  
 •⁠  ⁠*Gerenciador de Pacotes:* pnpm / npm / yarn  
 
 ---
