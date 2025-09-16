@@ -1,4 +1,4 @@
-📝 README Sugerido (bonito e completo)
+
 # ⚽ Sprint Passa a Bola
 
 	⁠Um sistema completo para gerenciamento e acompanhamento de partidas e campeonatos de futebol — com cadastro de jogadores, criação de times, placares e integração com APIs externas de dados esportivos.
