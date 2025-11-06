@@ -1,10 +1,14 @@
 import Banner from '../components/Banner.jsx'
 import React, { useEffect, useState } from 'react'
+import Modal from '../components/Modal.jsx'
 import axios from 'axios'
 import GamesWidget from '../components/GamesWidget.jsx'
 import LeagueSeasonPicker from '../components/LeagueSeasonPicker.jsx'
 
 export default function Jogos(){
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selected, setSelected] = useState(null);
+
   const [leagueId,setLeagueId] = useState('71')
   const [season,setSeason] = useState('2023')
   const [mode,setMode] = useState('widget') // 'widget' | 'rest'
