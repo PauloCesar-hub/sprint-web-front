@@ -29,7 +29,7 @@
 
 ## ⚙️ Tecnologias Utilizadas
 
-•⁠  ⁠*Frontend:* React + Vite + TypeScript + TailwindCSS  
+•⁠  ⁠*Frontend:* React + Vite + TailwindCSS  
 •⁠  ⁠*Backend/API:* Node.js + Express  
 •⁠  ⁠*Gerenciador de Pacotes:* pnpm / npm / yarn  
 
@@ -59,7 +59,7 @@ Sprint-web-front/
 ### 1. Clonar o repositório
 ```bash
 git clone https://github.com/seu-usuario/Futebolfv2.git
-cd Futebolfv2
+cd sprint-web-front
 
 2.⁠ ⁠Instalar dependências
 npm install
@@ -114,4 +114,3 @@ Abra um Pull Request
 📄 Licença
 
 Este projeto está sob a licença MIT.
-Sinta-se livre para usar, modificar e contribuir! 💚
